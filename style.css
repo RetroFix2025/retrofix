@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.services, .prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.service, .price {
+    flex: 1 1 200px;
+    background: #e2e2e2;
+    padding: 1rem;
+    border-radius: 8px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
