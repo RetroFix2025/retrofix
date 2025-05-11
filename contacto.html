@@ -1,93 +1,40 @@
-# Crear un archivo CSS con estilo retro, usando colores llamativos tipo neón sobre fondo oscuro
-retro_css = """
-/* Estilos retro para RetroFix */
-body {
-    margin: 0;
-    font-family: 'Courier New', monospace;
-    background-color: #0d0d0d;
-    color: #39ff14;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RetroFix - Contacto</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
 
-header {
-    background-color: #1a1a1a;
-    color: #ff00ff;
-    text-align: center;
-    padding: 2rem 1rem;
-    border-bottom: 3px solid #39ff14;
-}
+<header>
+    <h1>RetroFix</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="precios.html">Precios</a>
+        <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+</header>
 
-header h1 {
-    font-size: 2.5rem;
-    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
-}
+<main>
+    <h2 class="retro-title">Contacto</h2>
+    <p>Puedes comunicarte conmigo a través de los siguientes medios:</p>
+    <ul>
+        <li>Email: <a href="mailto:retrofix2025@gmail.com">retrofix2025@gmail.com</a></li>
+        <li>Telegram: <a href="https://t.me/Jooow13" target="_blank">@Jooow13</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/retro_fix2025/" target="_blank">@retro_fix2025</a></li>
+    </ul>
 
-nav {
-    margin-top: 1rem;
-}
+    <h3>Formulario de contacto</h3>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfm5Ic4VTiwGXrA25ajOeqmSEgB8EDHa2QeW6vzaWxBDEmO1A/viewform?embedded=true" width="100%" height="1305" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+</main>
 
-nav a {
-    color: #00ffff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-shadow: 0 0 5px #00ffff;
-}
+<footer>
+    <p>© 2025 RetroFix - Todos los derechos reservados</p>
+</footer>
 
-nav a:hover {
-    color: #ff00ff;
-    text-shadow: 0 0 8px #ff00ff;
-}
-
-section {
-    padding: 2rem;
-    border-bottom: 2px solid #1a1a1a;
-}
-
-h2 {
-    color: #ff00ff;
-    text-shadow: 0 0 5px #ff00ff;
-}
-
-.service, .price {
-    margin: 1rem 0;
-    padding: 1rem;
-    border: 2px solid #00ffff;
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #00ffff;
-}
-
-.gallery img {
-    width: 30%;
-    margin: 1rem;
-    border: 2px solid #ff00ff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ff00ff;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 0.5rem 0;
-}
-
-a {
-    color: #00ffff;
-}
-
-a:hover {
-    color: #ff00ff;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #1a1a1a;
-    color: #999;
-    font-size: 0.9rem;
-    border-top: 3px solid #39ff14;
-}
+</body>
+</html>
