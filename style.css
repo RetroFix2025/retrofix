@@ -1,4 +1,6 @@
 /* Estilo retro inspirado en los años 80 */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive, sans-serif;
@@ -28,11 +30,12 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 14px;
+    font-size: 12px;
     transition: color 0.3s ease;
 }
 
-nav a:hover, nav a.active {
+nav a:hover,
+nav a.active {
     color: #ff00ff;
     text-shadow: 0 0 5px #ff00ff;
 }
@@ -43,12 +46,13 @@ main {
     margin: auto;
 }
 
-.retro-title, h2 {
+.retro-title {
     color: #ff00ff;
     border-bottom: 2px dashed #ff00ff;
     padding-bottom: 5px;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 16px;
 }
 
 .services, .prices, .gallery {
@@ -64,11 +68,13 @@ main {
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 0 10px #00ffff55;
+    word-wrap: break-word;
 }
 
 .service h3, .price h3 {
     margin-top: 0;
     color: #39ff14;
+    font-size: 14px;
 }
 
 .gallery img {
@@ -85,4 +91,5 @@ footer {
     color: #aaa;
     border-top: 3px solid #ff00ff;
     margin-top: 30px;
+    font-size: 10px;
 }
