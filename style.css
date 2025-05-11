@@ -100,3 +100,22 @@ footer {
     font-size: 12px;
     border-top: 2px solid #ff00ff;
 }
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.price {
+    background-color: #1a1a1a;
+    color: #00fff7;
+    border: 2px solid #ff00c8;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px; /* Ajusta aquí el ancho */
+    box-sizing: border-box;
+    text-align: center;
+    word-wrap: break-word;
+}
